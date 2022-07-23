@@ -69,11 +69,18 @@ a.navbar-item.is-active {
 }
 
 #waw {
+        filter: blur(0.15rem);
         background-image: url({{site.location-image}});
         background-size: cover;
         opacity: 0.8;
 }
 
+
+#program {
+        background-image: url({{site.location-image}});
+        background-size: cover;
+        opacity: 0.8;
+}
 
 #contact {
     #contact-button {
