@@ -69,8 +69,6 @@ a.navbar-item.is-active {
 }
 
 #waw {
-
-      filter: blur(0.05rem);
       background-image: url({{site.location-image}});
       background-size: cover;
       opacity: 0.9;
