@@ -57,7 +57,7 @@ a.navbar-item.is-active {
         bottom: 0px;
         left: 0px;
         position: absolute;
-        opacity: 0.5;
+        opacity: 0.9;
         content: "";
     }
 }
@@ -69,19 +69,20 @@ a.navbar-item.is-active {
 }
 
 #waw {
-    background: rgb(0, 0, 0);
-    background: -moz-linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.75) 100%);
-    background: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.75) 100%);
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.75) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#000000", GradientType=1);
 
-    &::before {
-        filter: blur(0.1rem);
-        background-image: url({{site.location-image}});
-        background-size: cover;
-        opacity: 0.5;
-   }
+      filter: blur(0.05rem);
+      background-image: url({{site.location-image}});
+      background-size: cover;
+      opacity: 0.9;
+
 }
+.location {
+    margin: auto 0.75rem!important;
+}
+.date {
+    letter-spacing: 0.25rem!important;
+}
+
 
 #program {
         background-image: url({{site.location-image}});
