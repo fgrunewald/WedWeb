@@ -7,13 +7,15 @@ url: ''
 baseurl: 
 
 # Title of the Site
-title: Melanie & Fabian
+title: We are engaged!
+# Title at the top of the page
+top_title: Melanie & Fabian
 # Description of the Site
 description: Marrying 1st of June 2023
 # URL of Image of the Site
 site-image: /WedWeb/assets/images/MelFabLago.jpg
 # Keywords of the Site
-site-keywords: weddin
+site-keywords: wedding
 # URL for the Image of custom Favicon
 favicon-url: 
 
