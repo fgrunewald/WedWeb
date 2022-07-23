@@ -4,23 +4,28 @@ markdown: kramdown
 # URL of the Site
 url: ''
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
-baseurl: 
+baseurl: WedWeb
 
 # Title of the Site
-title: We are engaged!
+title: We're engaged!
 # Title at the top of the page
 top_title: Melanie & Fabian
 # Description of the Site
-description: Marrying 1st of June 2023
+description: marrying 1st June, 2023
 # URL of Image of the Site
 site-image: /WedWeb/assets/images/MelFabLago.jpg
 # Keywords of the Site
 site-keywords: wedding
-# URL for the Image of custom Favicon
-favicon-url: 
-
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
 heroimage: /WedWeb/assets/images/MelFabLago.jpg
+# URL for the Image of custom Favicon
+favicon-url:
+# location name
+location: Lago di Garda, Italy
+# date of wedding
+data: 1st June, 2023
+# image of the location
+location-image: /WedWeb/assets/images/LagoGarda.jpg
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
