@@ -23,7 +23,7 @@ favicon-url:
 # location name
 location: Lago di Garda, Italy
 # date of wedding
-data: "1st June, 2023"
+wed_date: 1st June, 2023
 # image of the location
 location-image: /WedWeb/assets/images/LagoGarda.jpg
 
