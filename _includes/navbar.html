@@ -1,7 +1,7 @@
 <nav class="navbar is-white is-fixed-top" role="navigation" aria-label="main navigation" id="navbar">
+    <!-- uncomment to get branding text to the left of the navbar menu
     <div class="container">
 
-        <!-- logo or branding image on left side -->
         <div class="navbar-brand">
             <a class="navbar-item"
                 href="{% if page.layout == 'default' %}{{site.url}}{{site.baseurl}}/#{% else %}{{site.url}}{{site.baseurl}}/{% endif %}">
@@ -13,7 +13,7 @@
                 <span></span>
             </div>
         </div>
-
+      -->
         <!-- children of navbar-menu must be navbar-start and/or navbar-end -->
         <div class="navbar-menu has-background-white" id="navbar-menu">
             <!-- navbar items | left side -->
@@ -22,12 +22,19 @@
             <!-- navbar items | right side -->
             <div class="navbar-end">
                 <a class="navbar-item {% if page.layout == 'default' %}is-active{% endif %}"
-                    href="{% if page.layout == 'default' %}{{site.url}}{{site.baseurl}}/#{% else %}{{site.url}}{{site.baseurl}}/{% endif %}">HOME</a>
-                <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/#waw">When & Where</a>
-                <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/#contact">RSVP</a>
+                    href="{% if page.layout == 'default' %}{{site.url}}{{site.baseurl}}/#{% else %}{{site.url}}{{site.baseurl}}/{% endif %}">Home</a>
+                <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/#details">The Details</a>
+                <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/#dest">Destination</a>
+                <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/#arrive">Getting There</a>
+                <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/#program">Program</a>
+                <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/#sleep">Acommodation</a>
+                <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/#rsvp">RSVP</a>
+<!--
+to add an element with a dropdwon menu
                 <a class="navbar-item {% if page.layout == 'blog' %}is-active{% endif %}"
                     href="{{site.url}}{{site.baseurl}}/blog">BLOG</a>
                 {% include dropdown.html %}
+-->
             </div>
 
         </div>
