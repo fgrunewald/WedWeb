@@ -1,0 +1,12 @@
+    <nav class="style-3">
+	  <ul class="menu-3">
+		<li><a class="navbar-item {% if page.layout == 'default' %}is-active{% endif %}"
+                    href="{% if page.layout == 'default' %}{{site.url}}{{site.baseurl}}/#{% else %}{{site.url}}{{site.baseurl}}/{% endif %}">Home</a></li>
+		<li><a class="navbar-item" href="{{site.url}}{{site.baseurl}}/#details">The Details</a></li>
+		<li><a class="navbar-item" href="{{site.url}}{{site.baseurl}}/#dest">Destination</a></li>
+        <li><a class="navbar-item" href="{{site.url}}{{site.baseurl}}/#arrive">Getting There</a></li>
+        <li><a class="navbar-item" href="{{site.url}}{{site.baseurl}}/#program">Program</a></li>
+        <li><a class="navbar-item" href="{{site.url}}{{site.baseurl}}/#sleep">Acommodation</a></li>
+        <li><a class="navbar-item" href="{{site.url}}{{site.baseurl}}/#rsvp">RSVP</a></li>
+	  </ul>
+	</nav>
